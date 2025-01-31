@@ -107,7 +107,7 @@ strong {
 }
 
 .presentacion_imagen{
- width: 50%;
+    width: 50%;
 }
 
 .footer{
@@ -123,4 +123,28 @@ strong {
 .presentacion__contenido__texto a{
     text-decoration: none;
     color: #22D4FD;
+}
+
+@media(max-width: 1200px){
+
+    .header_menu{
+        justify-content: center;        
+    }
+
+    .header{
+        padding: 10% 0% 0% 8%;
+    }
+
+    .presentacion{
+        flex-direction: column-reverse;
+        gap: 40px;
+        padding: 9.5% 8%;
+    }
+    
+    .presentacion_contenido{
+        width: auto;
+    }
+    
+
+
 }
